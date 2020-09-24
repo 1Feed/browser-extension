@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "zip -r dist/extension.zip . -x \".*\" -x \"dist/*\" -x \"package.json\""
+  }
+}

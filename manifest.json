@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "name": "Add to 1Feed",
+  "description": "This extension lets you add sites straight to 1Feed, your quiet place on the internet.",
+  "homepage_url": "https://1feed.app/",
+  "icons": {
+    "16": "icons/extension-16x16.png",
+    "48": "icons/extension-48x48.png",
+    "128": "icons/extension-128x128.png"
+  },
+  "permissions": ["activeTab"],
+  "background": { "scripts": ["background.js"] },
+  "browser_action": {
+    "default_icon": "icons/extension-128x128.png",
+    "default_title": "Add to 1Feed"
+  },
+  "manifest_version": 2
+}

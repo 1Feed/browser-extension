@@ -1,5 +1,5 @@
 chrome.browserAction.onClicked.addListener((tab) =>
-  chrome.tabs.update(tab.id, {
+  chrome.tabs.create({
     url:
       "https://my.1feed.app/add?url=" +
       encodeURIComponent(tab.url) +

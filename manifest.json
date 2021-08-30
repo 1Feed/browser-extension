@@ -12,7 +12,24 @@
   "background": { "scripts": ["background.js"] },
   "browser_action": {
     "default_icon": "icons/extension-128x128.png",
-    "default_title": "Add to 1Feed"
+    "default_title": "Add to 1Feed",
+    "theme_icons": [
+      {
+        "light": "icons/browser-action-light.svg",
+        "dark": "icons/browser-action-dark.svg",
+        "size": 16
+      },
+      {
+        "light": "icons/browser-action-light.svg",
+        "dark": "icons/browser-action-dark.svg",
+        "size": 48
+      },
+      {
+        "light": "icons/browser-action-light.svg",
+        "dark": "icons/browser-action-dark.svg",
+        "size": 128
+      }
+    ]
   },
   "manifest_version": 2
 }
